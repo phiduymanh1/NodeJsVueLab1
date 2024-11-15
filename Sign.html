@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign</title>
+    <link rel="stylesheet" href="css-20241113T144056Z-001/css/bootstrap.min.css">
+    <script src="js-20241113T143950Z-001/js/bootstrap.bundle.js"></script>
+</head>
+<body>
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Đăng ký</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Đăng nhập</button>
+        </li>
+      </ul>
+      <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+            <div class="col">
+                <div class="card" style="width: 40rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">Form đăng ký thông tin</h5>
+                      <div class="mb-3">
+                        <label for="formGroupExampleInput" class="form-label">Họ và tên</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Vui lòng nhập họ và tên">
+                      </div>
+                      <div class="mb-3">
+                        <label for="formGroupExampleInput2" class="form-label">Email</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Vui lòng nhập emai">
+                      </div>
+                      <div class="mb-3">
+                        <label for="formGroupExampleInput2" class="form-label">Số điện thoại</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Vui lòng nhập số điện thoại">
+                      </div>
+                      <div class="mb-3" >
+                        <div class="row g-2 align-items-center">
+                            <label for="inputPassword4" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="inputPassword4">
+                          </div>
+                          <div class="row g-2 align-items-center">
+                            <label for="inputPassword4" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="inputPassword4">
+                          </div>
+                      </div>
+                      <p>Giới tính</p>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                          Nam
+                        </label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                        <label class="form-check-label" for="flexRadioDefault2">
+                          Nữ
+                        </label>
+                      </div>
+    
+                      <p>Ngôn ngữ</p>
+                      <select class="form-select" aria-label="Default select example">
+                        <option selected>Tiếng việt</option>
+                        <option value="1">Tiếng anh</option>
+                      </select>
+                      <div class="col-12">
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" id="gridCheck">
+                          <label class="form-check-label" for="gridCheck">
+                            Tôi đồng ý với các điều khoản và điều kiện
+                          </label>
+                        </div>
+                      </div>
+                      <div class="col-12">
+                        <button type="submit" class="btn btn-primary">Đăng ký</button>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+        </div>
+        <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+            <div class="card" style="width: 40rem; height: 200px;">
+                <div class="card-body">
+                    <p>Form đăng nhập</p>
+                  <p class="card-text">
+                    <div class="col">
+                        <form>
+                            <div class="row mb-3">
+                              <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+                              <div class="col-sm-10">
+                                <input type="email" class="form-control" id="inputEmail3">
+                              </div>
+                            </div>
+                            <div class="row mb-3">
+                              <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+                              <div class="col-sm-10">
+                                <input type="password" class="form-control" id="inputPassword3">
+                              </div>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Đăng nhập</button>
+                          </form>
+                      </div>
+                    </div>
+                  </div>
+                  </p>
+                </div>
+              </div>
+        </div>
+      </div>
+</body>
+</html>
